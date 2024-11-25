@@ -1,3 +1,11 @@
+/*
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+Use nested loops and appropriate spacing for alignment.
+*/
 #include <iostream>
 using namespace std;
 

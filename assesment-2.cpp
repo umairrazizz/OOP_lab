@@ -1,3 +1,10 @@
+/*
+program that calculates income tax based on the following slab:
+• Income <= ₹2,50,000: No tax
+• ₹2,50,001 - ₹5,00,000: 5%
+• ₹5,00,001 - ₹10,00,000: 20%
+• Above ₹10,00,000: 30%
+*/
 #include <iostream>
 using namespace std;
 

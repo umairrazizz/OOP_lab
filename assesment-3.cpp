@@ -1,3 +1,8 @@
+/*
+calculator using a switch statement. The program should ask the user to input
+two numbers and a choice of operation (+,*,-,/, %). Implement each operation in a separate
+function and call the appropriate function based on the user's input.
+*/
 #include <iostream>
 using namespace std;
 
