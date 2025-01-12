@@ -10,7 +10,7 @@ Output: [2, 3] and [5]
 #include <vector>
 using namespace std;
 
-void findSubsets(int arr[], int n, int target) {
+void findSubsets(vector<int>& arr, int n, int target) {
     for (int i = 0; i < (1 << n); ++i) {
         int sum = 0;
         vector<int> subset;
@@ -37,14 +37,16 @@ int main() {
     int n, target;
     cout << "Enter the number of elements in the array: ";
     cin >> n;
-     vector<int> arr(n);
+
+    vector<int> arr(n);
     cout << "Enter the elements of the array: ";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-     cout << "Enter the target sum: ";
+
+    cout << "Enter the target sum: ";
     cin >> target;
-     vector<int> currentSubset;
+
     cout << "Subsets whose sum is " << target << " are:\n";
     findSubsets(arr, n, target);
 
