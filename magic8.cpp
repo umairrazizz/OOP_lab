@@ -4,8 +4,8 @@
 int main()
 {
   int num;
-  std::srand(time(NULL));
-  num = std::rand()%10;
+  std::srand(std::time(0));
+  num = std::rand() % 20 + 1;
   switch(num)
   {
     case 1 :
